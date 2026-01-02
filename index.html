@@ -42,7 +42,13 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-image-container">
-                <img src="images/profile.jpg" alt="Akshith K L" class="hero-image">
+                <img src="images/profile-400.jpg"
+                     srcset="images/profile-400.jpg 400w, images/profile-800.jpg 800w, images/profile-1200.jpg 1200w"
+                     sizes="(max-width: 600px) 200px, (max-width: 1200px) 280px, 280px"
+                     alt="Akshith K L"
+                     class="hero-image"
+                     loading="lazy"
+                     decoding="async">
             </div>
             <div class="hero-text">
                 <h1 class="hero-name">Akshith K L</h1>
